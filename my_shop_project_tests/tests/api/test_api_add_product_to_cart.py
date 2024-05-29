@@ -1,9 +1,9 @@
 import pytest
 import allure
 import jsonschema
-from my_shop_project_test.helper.load_schema import load_schema
-from my_shop_project_test.helper.api_requests import api_request
-
+#from my_shop_project_test.helper.load_schema import load_schema
+from my_shop_project_tests.helper.api_requests import api_request
+from my_shop_project_tests.helper.load_schema import load_schema
 
 @allure.epic('API. Add product to cart')
 @allure.label("owner", "MaryMokretsova")
